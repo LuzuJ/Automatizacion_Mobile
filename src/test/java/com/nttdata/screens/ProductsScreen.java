@@ -18,7 +18,6 @@ public class ProductsScreen extends PageObject {
     }
 
     public void clickOnProduct(String productName) {
-        // Serenity se encarga de encontrar el driver
         getDriver().findElement(AppiumBy.accessibilityId(productName)).click();
     }
 

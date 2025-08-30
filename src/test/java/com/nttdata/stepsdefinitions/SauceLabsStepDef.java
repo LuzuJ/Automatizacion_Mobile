@@ -14,7 +14,6 @@ public class SauceLabsStepDef {
 
     @Given("estoy en la aplicación de SauceLabs")
     public void estoyEnLaAplicacionDeSauceLabs() {
-        // Serenity abre la app automáticamente. No se necesita código.
     }
 
     @And("valido que carguen correctamente los productos en la galeria")
